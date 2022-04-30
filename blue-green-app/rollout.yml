@@ -4,7 +4,7 @@ kind: Rollout
 metadata:
   name: simple-rollout
 spec:
-  replicas: 2
+  replicas: 3
   strategy:
     blueGreen: 
       # activeService specifies the service to update with the new template hash at time of promotion.
